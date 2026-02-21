@@ -1,8 +1,10 @@
+#Aula 1 : Print
+
 """canal="Curso de "
 curso="Python"
 print(canal + curso)"""
 
-
+#Aula 2: Sintaxe Básica
 
 """if 10 < 2:
  print("maior")
@@ -18,7 +20,7 @@ def cn():
 cn()
 print(canal)"""
 
-
+#AUla 3: Variáveis 
 
 """y=["Carro","Avião", "Navio"] #List / Array
 x=("Carro","Avião", "Navio") #Tupla (não modifica itens como no array)
@@ -28,7 +30,7 @@ z=range(0,100,1) #List
 print(f"Valor: + {z}")
 print(f"Tipo: + {type(z)}")"""
 
-
+#Aula 4: Tipos de Dados
 
 """x={
     "canal":"CFB Cursos",
@@ -45,7 +47,7 @@ x=frozenset({5,7,4,5,7,4,8}) #Set
 print(f"Valor: + {x}")
 print(f"Tipo: + {type(x)}")"""
 
-
+#Aula 5:Tipo Numéricos
 
 """import random
 num_i=10
@@ -68,7 +70,7 @@ print(f'Valor 4: {x[3]} - Tipo: {type(x[3])}')
 print(f'Valor 5: {x[4]} - Tipo: {type(x[4])}')
 print(f'Valor 6: {x[5]} - Tipo: {type(x[5])}')"""
 
-
+#Aula 6 e 7: Strings P1 e P2
 
 """curso='Curso de Python'
 canal='CFB Cursos'
@@ -103,13 +105,13 @@ print(f'{cidade}, {dia} de {mes} de {ano}\r{canal} ')"""
 \t = tabulação (tab)
 \b = backspace (apagar o caracter anterior)"""
 
-
+#Aula 8: Tipo Boolean
 
 """aula=10<15
 
 print(bool(aula)) #True or False"""
 
-
+#Aula 9: Coleção List
 
 """carros=["HRV","Golf","Argo","Focus"]
 carros.append('Fit')
@@ -128,6 +130,7 @@ carros4.remove([2])
 print(len(carros4))
 print(carros4)"""
 
+#Aula 10: Como usar o If
 
 """a=10
 b=5
@@ -147,7 +150,7 @@ else:
 
 print(f'{a}{op}{b}={res}')"""
 
-
+#Aula 11: Condicionar If Elif Else
 
 """clima='Sol'
 dinheiro=600
