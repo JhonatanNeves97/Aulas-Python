@@ -1,4 +1,3 @@
-
 #Aula 12 : Loop For
 
 """carros=["HRV","Golf","Argo","Focus","Fit","Fusion","Polo"]
