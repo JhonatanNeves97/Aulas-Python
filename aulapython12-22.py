@@ -84,7 +84,7 @@ for l,c in carros:
 
 #Key:Value   sempre nesta ordem
 
-carro={
+"""carro={
     "Carro1":{
         "Fabricante":"Honda",
         "Modelo":"HRV",
@@ -104,7 +104,7 @@ carro={
         "Cor":"Branco"
         }
 }
-
+"""
 """fab=carro["Fabricante"] #fab=carro.get("Fabricante")
 
 carro["Cambio"]="Automatico"
@@ -145,3 +145,22 @@ Carro3={
 carros={"Carro1":Carro1,"Carro2":Carro2,"Carro3":Carro3}
 
 print(carros["Carro1"])"""
+
+#Aula18: Jogo de Advinhação
+
+"""import random
+import os
+
+erros=0
+sorteado=random.randrange(0,100)
+jogador=int(input("Digite seu Número: "))
+
+while(sorteado !=jogador):
+    os.system('cls')
+    if(sorteado>jogador):
+        print("Erro, o número é maior")
+    elif(sorteado<jogador):
+        print("Erro, o número é menor")
+    erros+=1
+    jogador=int(input("Digite Novamente seu Número:"))
+print(f"Número {jogador}, você acertou em {erros+1} tentativas")"""
